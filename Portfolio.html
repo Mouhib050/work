@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mon Portfolio</title>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#work">Work</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home">
+        <h1>Bienvenue sur mon portfolio</h1>
+        <p>
+          je suis Chebchoub Mouhib Etudiant a l'ISET de RADES . Je suis entrain de developper mes competence en developpement web.
+        </p>
+      </section>
+
+      <section id="about">
+        <h2>À propos de moi</h2>
+        <p>
+          Mouhib Chebchoub 20 ans passionné par la création de solutions élégantes et efficaces.
+        </p>
+
+        <audio controls>
+          <source src="html/presentation.mp3" type="audio/mp3" />
+          Votre navigateur ne supporte pas l'audio.
+        </audio>
+      </section>
+
+      <section id="work">
+        <h2>Mes Projets</h2>
+        <p><strong><mark> J'AI PAS ENCORE DE PROJET</mark></strong> </p>
+      </section>
+
+      <section id="resume">
+        <h2>Résumé</h2>
+        <table border="1" cellpadding="10">
+          <thead>
+            <tr>
+              <th>Année</th>
+              <th>Formation</th>
+              <th>Établissement</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>2024</td>
+              <td>Admis bac Economie</td>
+              <td>Lycee Carthzge byrsa</td>
+            </tr>
+            <tr>
+              <td>2025</td>
+              <td>1er annee Licence Informatique</td>
+              <td>ISET RADES</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="contact">
+        <h2>Contactez-moi</h2>
+        <form>
+          <label for="name">Nom :</label><br />
+          <input type="text" id="name" name="name" required /><br /><br />
+
+          <label for="email">Email :</label><br />
+          <input type="email" id="email" name="email" required /><br /><br />
+
+          <label for="message">Message :</label><br />
+          <textarea id="message" name="message" rows="5" required></textarea
+          ><br /><br />
+
+          <input type="submit" value="Envoyer" />
+        </form>
+      </section>
+    </main>     
+    
+    <footer>
+      <p>&copy; 2025 Chebchoub Mouhib . Tous droits réservés.</p>
+    </footer>
+  </body>
+</html>
