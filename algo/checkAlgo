@@ -1,0 +1,30 @@
+ALGORITHM checkpoint_algo
+VAR
+    ch : STRING:
+    i : INTEGER :=0;
+    longueur_phrase : INTEGER :=1;
+    nombre_mots : INTEGER:= 1;
+    nombre_voyelles: INTEGER:= 0;
+BEGIN
+   
+    Write("Entrez une phrase: ");
+    Read(ch);
+    WHILE (ch = "") DO
+        Write("Merci d'inserer une phrase correcte: ");
+        Read(ch);
+    END_WHILE
+    WHILE (ch[i]<> ".") DO
+        longueur_phrase := longueur_phrase + 1;
+        IF (ch[i] = " ") THEN
+            nombre_mots := nombre_mots +1;
+        END_IF
+        // IF( ord(Upper(ch[i])) in [65 , 69 , 73 , 79,85,89 ]) THEN 
+        IF (Upper(ch[i]) in ['A','E','I','O','U','Y'] ) THEN
+            nombre_voyelles:= nombre_voyelles +1; 
+        END_IF
+        i := i+1;
+    END_WHILE
+    Write("Longueur de la phrase : ",longueur_phrase);
+    Write("nombre de mots: ",nombre_mots);
+    Write("Nombre de voyelles: ",nombre_voyelles);
+END
