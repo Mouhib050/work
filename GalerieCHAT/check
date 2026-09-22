@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galerie Produits</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f7fb;
+      color: #1f2937;
+      min-height: 100vh;
+      transition: background 0.4s ease, color 0.4s ease;
+    }
+
+    /* MODE SOMBRE */
+    body.dark {
+      background: #111827;
+      color: #f9fafb;
+    }
+
+    header {
+      text-align: center;
+      padding: 50px 20px 30px;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      color: #6b7280;
+    }
+
+    body.dark header p {
+      color: #9ca3af;
+    }
+
+    /* Bouton thème */
+    .theme-btn {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      border: none;
+      background: #2563eb;
+      color: white;
+      padding: 12px 18px;
+      border-radius: 25px;
+      cursor: pointer;
+      font-size: 14px;
+      transition: transform 0.3s, background 0.3s;
+      z-index: 10;
+    }
+
+    .theme-btn:hover {
+      transform: scale(1.08);
+      background: #1d4ed8;
+    }
+
+    /* Galerie */
+    .gallery {
+      width: min(1100px, 90%);
+      margin: 20px auto 60px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 30px;
+    }
+
+    /* Cartes */
+    .card {
+      background: white;
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      opacity: 0;
+      transform: translateY(40px);
+      animation: apparition 0.8s ease forwards;
+      transition:
+        transform 0.35s ease,
+        box-shadow 0.35s ease,
+        background 0.4s ease;
+    }
+
+    .card:nth-child(2) {
+      animation-delay: 0.2s;
+    }
+
+    .card:nth-child(3) {
+      animation-delay: 0.4s;
+    }
+
+    body.dark .card {
+      background: #1f2937;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+    }
+
+    /* Animation d'apparition */
+    @keyframes apparition {
+      from {
+        opacity: 0;
+        transform: translateY(40px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    /* Effet de survol */
+    .card:hover {
+      transform: translateY(-12px) scale(1.02);
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.18);
+    }
+
+    /* Image */
+    .product-image {
+      height: 220px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 90px;
+      background: linear-gradient(135deg, #dbeafe, #bfdbfe);
+      transition: transform 0.4s ease;
+    }
+
+    .card:hover .product-image {
+      transform: scale(1.06);
+    }
+
+    .card:nth-child(2) .product-image {
+      background: linear-gradient(135deg, #fce7f3, #fbcfe8);
+    }
+
+    .card:nth-child(3) .product-image {
+      background: linear-gradient(135deg, #dcfce7, #bbf7d0);
+    }
+
+    /* Contenu */
+    .card-content {
+      padding: 25px;
+    }
+
+    .card h2 {
+      margin-bottom: 10px;
+      font-size: 1.4rem;
+    }
+
+    .card p {
+      color: #6b7280;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+
+    body.dark .card p {
+      color: #d1d5db;
+    }
+
+    .price {
+      font-size: 1.3rem;
+      font-weight: bold;
+      color: #2563eb;
+      margin-bottom: 18px;
+    }
+
+    /* Bouton */
+    .buy-btn {
+      width: 100%;
+      border: none;
+      padding: 13px;
+      border-radius: 10px;
+      background: #2563eb;
+      color: white;
+      font-size: 15px;
+      cursor: pointer;
+      transition: background 0.3s, transform 0.3s;
+    }
+
+    .buy-btn:hover {
+      background: #1d4ed8;
+      transform: translateY(-2px);
+    }
+
+    /* Responsive */
+    @media (max-width: 800px) {
+      .gallery {
+        grid-template-columns: 1fr;
+        max-width: 450px;
+      }
+
+      header h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <button class="theme-btn" id="themeBtn">
+    🌙 Mode sombre
+  </button>
+
+  <header>
+    <h1>Notre Galerie Produits</h1>
+    <p>Découvrez nos produits avec une interface moderne et animée.</p>
+  </header>
+
+  <main class="gallery">
+
+    <!-- Produit 1 -->
+    <article class="card">
+      <div class="product-image">
+        🎧
+      </div>
+
+      <div class="card-content">
+        <h2>Casque Audio</h2>
+
+        <p>
+          Un casque sans fil confortable avec une excellente qualité sonore.
+        </p>
+
+        <div class="price">89,99 €</div>
+
+        <button class="buy-btn">
+          Acheter
+        </button>
+      </div>
+    </article>
+
+    <!-- Produit 2 -->
+    <article class="card">
+      <div class="product-image">
+        ⌚
+      </div>
+
+      <div class="card-content">
+        <h2>Montre Connectée</h2>
+
+        <p>
+          Suivez votre activité et vos notifications directement au poignet.
+        </p>
+
+        <div class="price">129,99 €</div>
+
+        <button class="buy-btn">
+          Acheter
+        </button>
+      </div>
+    </article>
+
+    <!-- Produit 3 -->
+    <article class="card">
+      <div class="product-image">
+        📷
+      </div>
+
+      <div class="card-content">
+        <h2>Appareil Photo</h2>
+
+        <p>
+          Capturez vos meilleurs souvenirs avec une qualité d'image remarquable.
+        </p>
+
+        <div class="price">549,99 €</div>
+
+        <button class="buy-btn">
+          Acheter
+        </button>
+      </div>
+    </article>
+
+  </main>
+
+  <script>
+    const themeBtn = document.getElementById("themeBtn");
+
+    themeBtn.addEventListener("click", () => {
+      document.body.classList.toggle("dark");
+
+      if (document.body.classList.contains("dark")) {
+        themeBtn.textContent = "☀️ Mode clair";
+      } else {
+        themeBtn.textContent = "🌙 Mode sombre";
+      }
+    });
+
+    // Interaction avec les boutons Acheter
+    const buyButtons = document.querySelectorAll(".buy-btn");
+
+    buyButtons.forEach(button => {
+      button.addEventListener("click", () => {
+        button.textContent = "✓ Ajouté au panier";
+
+        setTimeout(() => {
+          button.textContent = "Acheter";
+        }, 1500);
+      });
+    });
+  </script>
+
+</body>
+</html>
