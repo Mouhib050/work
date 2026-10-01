@@ -1,0 +1,129 @@
+Voici un extrait HTML/CSS d'une carte de tarification. 
+1) Identifie tous les bogues de mise en page et de syntaxe (balises mal fermées, propriétés CSS erronées, problèmes de box-sizing, de marges, de responsive, d'accessibilité du bouton) et explique chacun brièvement. 
+2) Corrige-les. 
+3) Transforme le résultat en composant réutilisable en JavaScript vanilla : une fonction Card({ title, price, features, buttonLabel }) qui retourne un élément DOM, sans innerHTML pour éviter les injections. 
+4) Affiche trois cartes différentes (Basic, Pro, Premium) dans un conteneur flex centré et responsive.
+Donne-moi un seul fichier HTML complet.
+
+/////////////////////////////////////////////////////////
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pricing Cards</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      padding: 40px 16px;
+      font-family: system-ui, sans-serif;
+      background: #f5f6f8;
+    }
+
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 24px;
+      justify-content: center;
+    }
+
+    .pricing {
+      width: 300px;
+      max-width: 100%;
+      background-color: #fff;
+      box-shadow: 0 0 10px #ccc;
+      border-radius: 8px;
+      padding: 20px;
+      text-align: left;
+    }
+
+    .title {
+      margin: 0 0 8px;
+      font-size: 22px;
+      font-weight: bold;
+    }
+
+    .price {
+      margin: 0 0 16px;
+      font-size: 18px;
+      color: green;
+    }
+
+    .features {
+      list-style: none;
+      margin: 0;
+      padding-left: 0;
+    }
+
+    .features li {
+      padding: 8px 4px;
+      border-bottom: 1px solid #eee;
+    }
+
+    .features li:last-child { border-bottom: none; }
+
+    .btn {
+      width: 100%;
+      margin-top: 16px;
+      padding: 10px 20px;
+      font: inherit;
+      color: white;
+      background: blue;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+
+    .btn:hover { background: darkblue; }
+  </style>
+</head>
+<body>
+
+<div class="cards" id="cards"></div>
+
+<script>
+  function Card({ title, price, features = [], buttonLabel = "Start Trial" }) {
+    const card = document.createElement("div");
+    card.className = "pricing";
+
+    const h2 = document.createElement("h2");
+    h2.className = "title";
+    h2.textContent = title;
+
+    const p = document.createElement("p");
+    p.className = "price";
+    p.textContent = price;
+
+    const ul = document.createElement("ul");
+    ul.className = "features";
+    features.forEach(text => {
+      const li = document.createElement("li");
+      li.textContent = text;
+      ul.appendChild(li);
+    });
+
+    const btn = document.createElement("button");
+    btn.className = "btn";
+    btn.type = "button";
+    btn.textContent = buttonLabel;
+
+    card.append(h2, p, ul, btn);
+    return card;
+  }
+
+  const plans = [
+    { title: "Basic Plan",   price: "$9.99 /month",  features: ["1 GB Storage", "Basic Support", "All Core Features"] },
+    { title: "Pro Plan",     price: "$19.99 /month", features: ["10 GB Storage", "Priority Support", "All Core Features", "Analytics"] },
+    { title: "Premium Plan", price: "$39.99 /month", features: ["100 GB Storage", "24/7 Support", "All Core Features", "Analytics", "Custom Domain"] }
+  ];
+
+  const container = document.getElementById("cards");
+  plans.forEach(plan => container.appendChild(Card(plan)));
+</script>
+
+</body>
+</html>
