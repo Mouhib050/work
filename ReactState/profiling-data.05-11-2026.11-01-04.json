@@ -1,0 +1,1838 @@
+{
+  "version": 5,
+  "dataForRoots": [
+    {
+      "commitData": [
+        {
+          "changeDescriptions": null,
+          "duration": 0.1,
+          "effectDuration": null,
+          "fiberActualDurations": [
+            [
+              2,
+              0.1
+            ]
+          ],
+          "fiberSelfDurations": [
+            [
+              2,
+              0.1
+            ]
+          ],
+          "passiveEffectDuration": null,
+          "priorityLevel": "Normal",
+          "timestamp": 862.4000000953674,
+          "updaters": [
+            {
+              "displayName": "App",
+              "id": 2,
+              "key": null,
+              "env": null,
+              "stack": null,
+              "type": 1,
+              "hocDisplayNames": null,
+              "compiledWithForget": false
+            }
+          ]
+        },
+        {
+          "changeDescriptions": null,
+          "duration": 0.5,
+          "effectDuration": null,
+          "fiberActualDurations": [
+            [
+              2,
+              0.5
+            ]
+          ],
+          "fiberSelfDurations": [
+            [
+              2,
+              0.2
+            ]
+          ],
+          "passiveEffectDuration": null,
+          "priorityLevel": "Normal",
+          "timestamp": 1863.1000001430511,
+          "updaters": [
+            {
+              "displayName": "App",
+              "id": 2,
+              "key": null,
+              "env": null,
+              "stack": null,
+              "type": 1,
+              "hocDisplayNames": null,
+              "compiledWithForget": false
+            }
+          ]
+        },
+        {
+          "changeDescriptions": null,
+          "duration": 0.4,
+          "effectDuration": null,
+          "fiberActualDurations": [
+            [
+              2,
+              0.4
+            ]
+          ],
+          "fiberSelfDurations": [
+            [
+              2,
+              0.2
+            ]
+          ],
+          "passiveEffectDuration": null,
+          "priorityLevel": "Normal",
+          "timestamp": 2852.800000190735,
+          "updaters": [
+            {
+              "displayName": "App",
+              "id": 2,
+              "key": null,
+              "env": null,
+              "stack": null,
+              "type": 1,
+              "hocDisplayNames": null,
+              "compiledWithForget": false
+            }
+          ]
+        },
+        {
+          "changeDescriptions": null,
+          "duration": 0.1,
+          "effectDuration": null,
+          "fiberActualDurations": [
+            [
+              2,
+              0.1
+            ]
+          ],
+          "fiberSelfDurations": [
+            [
+              2,
+              0.1
+            ]
+          ],
+          "passiveEffectDuration": null,
+          "priorityLevel": "Normal",
+          "timestamp": 3858.2000000476837,
+          "updaters": [
+            {
+              "displayName": "App",
+              "id": 2,
+              "key": null,
+              "env": null,
+              "stack": null,
+              "type": 1,
+              "hocDisplayNames": null,
+              "compiledWithForget": false
+            }
+          ]
+        },
+        {
+          "changeDescriptions": null,
+          "duration": 0.4,
+          "effectDuration": 0.1,
+          "fiberActualDurations": [
+            [
+              2,
+              0.4
+            ]
+          ],
+          "fiberSelfDurations": [
+            [
+              2,
+              0.1
+            ]
+          ],
+          "passiveEffectDuration": 0,
+          "priorityLevel": "Normal",
+          "timestamp": 3956.9000000953674,
+          "updaters": [
+            {
+              "displayName": "App",
+              "id": 2,
+              "key": null,
+              "env": null,
+              "stack": null,
+              "type": 1,
+              "hocDisplayNames": null,
+              "compiledWithForget": false
+            }
+          ]
+        },
+        {
+          "changeDescriptions": null,
+          "duration": 0.8,
+          "effectDuration": null,
+          "fiberActualDurations": [
+            [
+              2,
+              0.8
+            ]
+          ],
+          "fiberSelfDurations": [
+            [
+              2,
+              0.1
+            ]
+          ],
+          "passiveEffectDuration": null,
+          "priorityLevel": "Normal",
+          "timestamp": 4765.800000190735,
+          "updaters": [
+            {
+              "displayName": "App",
+              "id": 2,
+              "key": null,
+              "env": null,
+              "stack": null,
+              "type": 1,
+              "hocDisplayNames": null,
+              "compiledWithForget": false
+            }
+          ]
+        },
+        {
+          "changeDescriptions": null,
+          "duration": 0.2,
+          "effectDuration": null,
+          "fiberActualDurations": [
+            [
+              2,
+              0.2
+            ]
+          ],
+          "fiberSelfDurations": [
+            [
+              2,
+              0.2
+            ]
+          ],
+          "passiveEffectDuration": null,
+          "priorityLevel": "Normal",
+          "timestamp": 4852.800000190735,
+          "updaters": [
+            {
+              "displayName": "App",
+              "id": 2,
+              "key": null,
+              "env": null,
+              "stack": null,
+              "type": 1,
+              "hocDisplayNames": null,
+              "compiledWithForget": false
+            }
+          ]
+        },
+        {
+          "changeDescriptions": null,
+          "duration": 0.2,
+          "effectDuration": null,
+          "fiberActualDurations": [
+            [
+              2,
+              0.2
+            ]
+          ],
+          "fiberSelfDurations": [
+            [
+              2,
+              0.1
+            ]
+          ],
+          "passiveEffectDuration": null,
+          "priorityLevel": "Normal",
+          "timestamp": 5857.5,
+          "updaters": [
+            {
+              "displayName": "App",
+              "id": 2,
+              "key": null,
+              "env": null,
+              "stack": null,
+              "type": 1,
+              "hocDisplayNames": null,
+              "compiledWithForget": false
+            }
+          ]
+        },
+        {
+          "changeDescriptions": null,
+          "duration": 0.1,
+          "effectDuration": null,
+          "fiberActualDurations": [
+            [
+              2,
+              0.1
+            ]
+          ],
+          "fiberSelfDurations": [
+            [
+              2,
+              0.1
+            ]
+          ],
+          "passiveEffectDuration": null,
+          "priorityLevel": "Normal",
+          "timestamp": 6852.5,
+          "updaters": [
+            {
+              "displayName": "App",
+              "id": 2,
+              "key": null,
+              "env": null,
+              "stack": null,
+              "type": 1,
+              "hocDisplayNames": null,
+              "compiledWithForget": false
+            }
+          ]
+        },
+        {
+          "changeDescriptions": null,
+          "duration": 0.2,
+          "effectDuration": 0,
+          "fiberActualDurations": [
+            [
+              2,
+              0.2
+            ]
+          ],
+          "fiberSelfDurations": [
+            [
+              2,
+              0.1
+            ]
+          ],
+          "passiveEffectDuration": 0,
+          "priorityLevel": "Normal",
+          "timestamp": 7382.5,
+          "updaters": [
+            {
+              "displayName": "App",
+              "id": 2,
+              "key": null,
+              "env": null,
+              "stack": null,
+              "type": 1,
+              "hocDisplayNames": null,
+              "compiledWithForget": false
+            }
+          ]
+        },
+        {
+          "changeDescriptions": null,
+          "duration": 0,
+          "effectDuration": null,
+          "fiberActualDurations": [
+            [
+              2,
+              0
+            ]
+          ],
+          "fiberSelfDurations": [
+            [
+              2,
+              0
+            ]
+          ],
+          "passiveEffectDuration": null,
+          "priorityLevel": "Normal",
+          "timestamp": 7856.300000190735,
+          "updaters": [
+            {
+              "displayName": "App",
+              "id": 2,
+              "key": null,
+              "env": null,
+              "stack": null,
+              "type": 1,
+              "hocDisplayNames": null,
+              "compiledWithForget": false
+            }
+          ]
+        },
+        {
+          "changeDescriptions": null,
+          "duration": 2.6,
+          "effectDuration": null,
+          "fiberActualDurations": [
+            [
+              2,
+              2.6
+            ]
+          ],
+          "fiberSelfDurations": [
+            [
+              2,
+              0.1
+            ]
+          ],
+          "passiveEffectDuration": null,
+          "priorityLevel": "Normal",
+          "timestamp": 8261.900000095367,
+          "updaters": [
+            {
+              "displayName": "App",
+              "id": 2,
+              "key": null,
+              "env": null,
+              "stack": null,
+              "type": 1,
+              "hocDisplayNames": null,
+              "compiledWithForget": false
+            }
+          ]
+        },
+        {
+          "changeDescriptions": null,
+          "duration": 0.4,
+          "effectDuration": null,
+          "fiberActualDurations": [
+            [
+              2,
+              0.4
+            ]
+          ],
+          "fiberSelfDurations": [
+            [
+              2,
+              0.3
+            ]
+          ],
+          "passiveEffectDuration": null,
+          "priorityLevel": "Normal",
+          "timestamp": 8853.900000095367,
+          "updaters": [
+            {
+              "displayName": "App",
+              "id": 2,
+              "key": null,
+              "env": null,
+              "stack": null,
+              "type": 1,
+              "hocDisplayNames": null,
+              "compiledWithForget": false
+            }
+          ]
+        },
+        {
+          "changeDescriptions": null,
+          "duration": 0.2,
+          "effectDuration": null,
+          "fiberActualDurations": [
+            [
+              2,
+              0.2
+            ]
+          ],
+          "fiberSelfDurations": [
+            [
+              2,
+              0.1
+            ]
+          ],
+          "passiveEffectDuration": null,
+          "priorityLevel": "Normal",
+          "timestamp": 9850.300000190735,
+          "updaters": [
+            {
+              "displayName": "App",
+              "id": 2,
+              "key": null,
+              "env": null,
+              "stack": null,
+              "type": 1,
+              "hocDisplayNames": null,
+              "compiledWithForget": false
+            }
+          ]
+        },
+        {
+          "changeDescriptions": null,
+          "duration": 0.2,
+          "effectDuration": null,
+          "fiberActualDurations": [
+            [
+              2,
+              0.2
+            ]
+          ],
+          "fiberSelfDurations": [
+            [
+              2,
+              0.2
+            ]
+          ],
+          "passiveEffectDuration": null,
+          "priorityLevel": "Normal",
+          "timestamp": 10855.400000095367,
+          "updaters": [
+            {
+              "displayName": "App",
+              "id": 2,
+              "key": null,
+              "env": null,
+              "stack": null,
+              "type": 1,
+              "hocDisplayNames": null,
+              "compiledWithForget": false
+            }
+          ]
+        },
+        {
+          "changeDescriptions": null,
+          "duration": 0.3,
+          "effectDuration": null,
+          "fiberActualDurations": [
+            [
+              2,
+              0.3
+            ]
+          ],
+          "fiberSelfDurations": [
+            [
+              2,
+              0.1
+            ]
+          ],
+          "passiveEffectDuration": null,
+          "priorityLevel": "Normal",
+          "timestamp": 11855.400000095367,
+          "updaters": [
+            {
+              "displayName": "App",
+              "id": 2,
+              "key": null,
+              "env": null,
+              "stack": null,
+              "type": 1,
+              "hocDisplayNames": null,
+              "compiledWithForget": false
+            }
+          ]
+        },
+        {
+          "changeDescriptions": null,
+          "duration": 0.2,
+          "effectDuration": null,
+          "fiberActualDurations": [
+            [
+              2,
+              0.2
+            ]
+          ],
+          "fiberSelfDurations": [
+            [
+              2,
+              0.1
+            ]
+          ],
+          "passiveEffectDuration": null,
+          "priorityLevel": "Normal",
+          "timestamp": 12865,
+          "updaters": [
+            {
+              "displayName": "App",
+              "id": 2,
+              "key": null,
+              "env": null,
+              "stack": null,
+              "type": 1,
+              "hocDisplayNames": null,
+              "compiledWithForget": false
+            }
+          ]
+        },
+        {
+          "changeDescriptions": null,
+          "duration": 0.3,
+          "effectDuration": null,
+          "fiberActualDurations": [
+            [
+              2,
+              0.3
+            ]
+          ],
+          "fiberSelfDurations": [
+            [
+              2,
+              0.1
+            ]
+          ],
+          "passiveEffectDuration": null,
+          "priorityLevel": "Normal",
+          "timestamp": 13852.400000095367,
+          "updaters": [
+            {
+              "displayName": "App",
+              "id": 2,
+              "key": null,
+              "env": null,
+              "stack": null,
+              "type": 1,
+              "hocDisplayNames": null,
+              "compiledWithForget": false
+            }
+          ]
+        },
+        {
+          "changeDescriptions": null,
+          "duration": 0.3,
+          "effectDuration": null,
+          "fiberActualDurations": [
+            [
+              2,
+              0.3
+            ]
+          ],
+          "fiberSelfDurations": [
+            [
+              2,
+              0.2
+            ]
+          ],
+          "passiveEffectDuration": null,
+          "priorityLevel": "Normal",
+          "timestamp": 14863.300000190735,
+          "updaters": [
+            {
+              "displayName": "App",
+              "id": 2,
+              "key": null,
+              "env": null,
+              "stack": null,
+              "type": 1,
+              "hocDisplayNames": null,
+              "compiledWithForget": false
+            }
+          ]
+        },
+        {
+          "changeDescriptions": null,
+          "duration": 0.2,
+          "effectDuration": null,
+          "fiberActualDurations": [
+            [
+              2,
+              0.2
+            ]
+          ],
+          "fiberSelfDurations": [
+            [
+              2,
+              0.2
+            ]
+          ],
+          "passiveEffectDuration": null,
+          "priorityLevel": "Normal",
+          "timestamp": 15857.700000047684,
+          "updaters": [
+            {
+              "displayName": "App",
+              "id": 2,
+              "key": null,
+              "env": null,
+              "stack": null,
+              "type": 1,
+              "hocDisplayNames": null,
+              "compiledWithForget": false
+            }
+          ]
+        },
+        {
+          "changeDescriptions": null,
+          "duration": 0.3,
+          "effectDuration": null,
+          "fiberActualDurations": [
+            [
+              2,
+              0.3
+            ]
+          ],
+          "fiberSelfDurations": [
+            [
+              2,
+              0.1
+            ]
+          ],
+          "passiveEffectDuration": null,
+          "priorityLevel": "Normal",
+          "timestamp": 16849.300000190735,
+          "updaters": [
+            {
+              "displayName": "App",
+              "id": 2,
+              "key": null,
+              "env": null,
+              "stack": null,
+              "type": 1,
+              "hocDisplayNames": null,
+              "compiledWithForget": false
+            }
+          ]
+        },
+        {
+          "changeDescriptions": null,
+          "duration": 0.1,
+          "effectDuration": null,
+          "fiberActualDurations": [
+            [
+              2,
+              0.1
+            ]
+          ],
+          "fiberSelfDurations": [
+            [
+              2,
+              0.1
+            ]
+          ],
+          "passiveEffectDuration": null,
+          "priorityLevel": "Normal",
+          "timestamp": 17849.800000190735,
+          "updaters": [
+            {
+              "displayName": "App",
+              "id": 2,
+              "key": null,
+              "env": null,
+              "stack": null,
+              "type": 1,
+              "hocDisplayNames": null,
+              "compiledWithForget": false
+            }
+          ]
+        },
+        {
+          "changeDescriptions": null,
+          "duration": 0.3,
+          "effectDuration": null,
+          "fiberActualDurations": [
+            [
+              2,
+              0.3
+            ]
+          ],
+          "fiberSelfDurations": [
+            [
+              2,
+              0.2
+            ]
+          ],
+          "passiveEffectDuration": null,
+          "priorityLevel": "Normal",
+          "timestamp": 18886.700000047684,
+          "updaters": [
+            {
+              "displayName": "App",
+              "id": 2,
+              "key": null,
+              "env": null,
+              "stack": null,
+              "type": 1,
+              "hocDisplayNames": null,
+              "compiledWithForget": false
+            }
+          ]
+        },
+        {
+          "changeDescriptions": null,
+          "duration": 0.7,
+          "effectDuration": null,
+          "fiberActualDurations": [
+            [
+              2,
+              0.7
+            ]
+          ],
+          "fiberSelfDurations": [
+            [
+              2,
+              0.2
+            ]
+          ],
+          "passiveEffectDuration": null,
+          "priorityLevel": "Normal",
+          "timestamp": 20058.200000047684,
+          "updaters": [
+            {
+              "displayName": "App",
+              "id": 2,
+              "key": null,
+              "env": null,
+              "stack": null,
+              "type": 1,
+              "hocDisplayNames": null,
+              "compiledWithForget": false
+            }
+          ]
+        },
+        {
+          "changeDescriptions": null,
+          "duration": 0.2,
+          "effectDuration": null,
+          "fiberActualDurations": [
+            [
+              2,
+              0.2
+            ]
+          ],
+          "fiberSelfDurations": [
+            [
+              2,
+              0.2
+            ]
+          ],
+          "passiveEffectDuration": null,
+          "priorityLevel": "Normal",
+          "timestamp": 21070.900000095367,
+          "updaters": [
+            {
+              "displayName": "App",
+              "id": 2,
+              "key": null,
+              "env": null,
+              "stack": null,
+              "type": 1,
+              "hocDisplayNames": null,
+              "compiledWithForget": false
+            }
+          ]
+        },
+        {
+          "changeDescriptions": null,
+          "duration": 0.9,
+          "effectDuration": null,
+          "fiberActualDurations": [
+            [
+              2,
+              0.9
+            ]
+          ],
+          "fiberSelfDurations": [
+            [
+              2,
+              0.2
+            ]
+          ],
+          "passiveEffectDuration": null,
+          "priorityLevel": "Normal",
+          "timestamp": 22056.60000014305,
+          "updaters": [
+            {
+              "displayName": "App",
+              "id": 2,
+              "key": null,
+              "env": null,
+              "stack": null,
+              "type": 1,
+              "hocDisplayNames": null,
+              "compiledWithForget": false
+            }
+          ]
+        },
+        {
+          "changeDescriptions": null,
+          "duration": 0.2,
+          "effectDuration": null,
+          "fiberActualDurations": [
+            [
+              2,
+              0.2
+            ]
+          ],
+          "fiberSelfDurations": [
+            [
+              2,
+              0.1
+            ]
+          ],
+          "passiveEffectDuration": null,
+          "priorityLevel": "Normal",
+          "timestamp": 23056,
+          "updaters": [
+            {
+              "displayName": "App",
+              "id": 2,
+              "key": null,
+              "env": null,
+              "stack": null,
+              "type": 1,
+              "hocDisplayNames": null,
+              "compiledWithForget": false
+            }
+          ]
+        },
+        {
+          "changeDescriptions": null,
+          "duration": 0.2,
+          "effectDuration": null,
+          "fiberActualDurations": [
+            [
+              2,
+              0.2
+            ]
+          ],
+          "fiberSelfDurations": [
+            [
+              2,
+              0.1
+            ]
+          ],
+          "passiveEffectDuration": null,
+          "priorityLevel": "Normal",
+          "timestamp": 24054.10000014305,
+          "updaters": [
+            {
+              "displayName": "App",
+              "id": 2,
+              "key": null,
+              "env": null,
+              "stack": null,
+              "type": 1,
+              "hocDisplayNames": null,
+              "compiledWithForget": false
+            }
+          ]
+        },
+        {
+          "changeDescriptions": null,
+          "duration": 0.3,
+          "effectDuration": null,
+          "fiberActualDurations": [
+            [
+              2,
+              0.3
+            ]
+          ],
+          "fiberSelfDurations": [
+            [
+              2,
+              0.1
+            ]
+          ],
+          "passiveEffectDuration": null,
+          "priorityLevel": "Normal",
+          "timestamp": 25056.400000095367,
+          "updaters": [
+            {
+              "displayName": "App",
+              "id": 2,
+              "key": null,
+              "env": null,
+              "stack": null,
+              "type": 1,
+              "hocDisplayNames": null,
+              "compiledWithForget": false
+            }
+          ]
+        },
+        {
+          "changeDescriptions": null,
+          "duration": 0.2,
+          "effectDuration": null,
+          "fiberActualDurations": [
+            [
+              2,
+              0.2
+            ]
+          ],
+          "fiberSelfDurations": [
+            [
+              2,
+              0.2
+            ]
+          ],
+          "passiveEffectDuration": null,
+          "priorityLevel": "Normal",
+          "timestamp": 26065.300000190735,
+          "updaters": [
+            {
+              "displayName": "App",
+              "id": 2,
+              "key": null,
+              "env": null,
+              "stack": null,
+              "type": 1,
+              "hocDisplayNames": null,
+              "compiledWithForget": false
+            }
+          ]
+        },
+        {
+          "changeDescriptions": null,
+          "duration": 0.3,
+          "effectDuration": null,
+          "fiberActualDurations": [
+            [
+              2,
+              0.3
+            ]
+          ],
+          "fiberSelfDurations": [
+            [
+              2,
+              0.1
+            ]
+          ],
+          "passiveEffectDuration": null,
+          "priorityLevel": "Normal",
+          "timestamp": 27066.60000014305,
+          "updaters": [
+            {
+              "displayName": "App",
+              "id": 2,
+              "key": null,
+              "env": null,
+              "stack": null,
+              "type": 1,
+              "hocDisplayNames": null,
+              "compiledWithForget": false
+            }
+          ]
+        },
+        {
+          "changeDescriptions": null,
+          "duration": 0.3,
+          "effectDuration": null,
+          "fiberActualDurations": [
+            [
+              2,
+              0.3
+            ]
+          ],
+          "fiberSelfDurations": [
+            [
+              2,
+              0.1
+            ]
+          ],
+          "passiveEffectDuration": null,
+          "priorityLevel": "Normal",
+          "timestamp": 28098.400000095367,
+          "updaters": [
+            {
+              "displayName": "App",
+              "id": 2,
+              "key": null,
+              "env": null,
+              "stack": null,
+              "type": 1,
+              "hocDisplayNames": null,
+              "compiledWithForget": false
+            }
+          ]
+        },
+        {
+          "changeDescriptions": null,
+          "duration": 0.1,
+          "effectDuration": null,
+          "fiberActualDurations": [
+            [
+              2,
+              0.1
+            ]
+          ],
+          "fiberSelfDurations": [
+            [
+              2,
+              0.1
+            ]
+          ],
+          "passiveEffectDuration": null,
+          "priorityLevel": "Normal",
+          "timestamp": 29070.60000014305,
+          "updaters": [
+            {
+              "displayName": "App",
+              "id": 2,
+              "key": null,
+              "env": null,
+              "stack": null,
+              "type": 1,
+              "hocDisplayNames": null,
+              "compiledWithForget": false
+            }
+          ]
+        },
+        {
+          "changeDescriptions": null,
+          "duration": 0.3,
+          "effectDuration": null,
+          "fiberActualDurations": [
+            [
+              2,
+              0.3
+            ]
+          ],
+          "fiberSelfDurations": [
+            [
+              2,
+              0.1
+            ]
+          ],
+          "passiveEffectDuration": null,
+          "priorityLevel": "Normal",
+          "timestamp": 30056.300000190735,
+          "updaters": [
+            {
+              "displayName": "App",
+              "id": 2,
+              "key": null,
+              "env": null,
+              "stack": null,
+              "type": 1,
+              "hocDisplayNames": null,
+              "compiledWithForget": false
+            }
+          ]
+        },
+        {
+          "changeDescriptions": null,
+          "duration": 0.2,
+          "effectDuration": null,
+          "fiberActualDurations": [
+            [
+              2,
+              0.2
+            ]
+          ],
+          "fiberSelfDurations": [
+            [
+              2,
+              0.2
+            ]
+          ],
+          "passiveEffectDuration": null,
+          "priorityLevel": "Normal",
+          "timestamp": 30863.60000014305,
+          "updaters": [
+            {
+              "displayName": "App",
+              "id": 2,
+              "key": null,
+              "env": null,
+              "stack": null,
+              "type": 1,
+              "hocDisplayNames": null,
+              "compiledWithForget": false
+            }
+          ]
+        },
+        {
+          "changeDescriptions": null,
+          "duration": 0.1,
+          "effectDuration": null,
+          "fiberActualDurations": [
+            [
+              2,
+              0.1
+            ]
+          ],
+          "fiberSelfDurations": [
+            [
+              2,
+              0.1
+            ]
+          ],
+          "passiveEffectDuration": null,
+          "priorityLevel": "Normal",
+          "timestamp": 31850.10000014305,
+          "updaters": [
+            {
+              "displayName": "App",
+              "id": 2,
+              "key": null,
+              "env": null,
+              "stack": null,
+              "type": 1,
+              "hocDisplayNames": null,
+              "compiledWithForget": false
+            }
+          ]
+        },
+        {
+          "changeDescriptions": null,
+          "duration": 0.2,
+          "effectDuration": null,
+          "fiberActualDurations": [
+            [
+              2,
+              0.2
+            ]
+          ],
+          "fiberSelfDurations": [
+            [
+              2,
+              0.2
+            ]
+          ],
+          "passiveEffectDuration": null,
+          "priorityLevel": "Normal",
+          "timestamp": 32849.700000047684,
+          "updaters": [
+            {
+              "displayName": "App",
+              "id": 2,
+              "key": null,
+              "env": null,
+              "stack": null,
+              "type": 1,
+              "hocDisplayNames": null,
+              "compiledWithForget": false
+            }
+          ]
+        },
+        {
+          "changeDescriptions": null,
+          "duration": 0.3,
+          "effectDuration": 0,
+          "fiberActualDurations": [
+            [
+              2,
+              0.3
+            ]
+          ],
+          "fiberSelfDurations": [
+            [
+              2,
+              0.2
+            ]
+          ],
+          "passiveEffectDuration": 0,
+          "priorityLevel": "Normal",
+          "timestamp": 33028.800000190735,
+          "updaters": [
+            {
+              "displayName": "App",
+              "id": 2,
+              "key": null,
+              "env": null,
+              "stack": null,
+              "type": 1,
+              "hocDisplayNames": null,
+              "compiledWithForget": false
+            }
+          ]
+        },
+        {
+          "changeDescriptions": null,
+          "duration": 0.8,
+          "effectDuration": null,
+          "fiberActualDurations": [
+            [
+              2,
+              0.8
+            ]
+          ],
+          "fiberSelfDurations": [
+            [
+              2,
+              0.2
+            ]
+          ],
+          "passiveEffectDuration": null,
+          "priorityLevel": "Normal",
+          "timestamp": 33732.700000047684,
+          "updaters": [
+            {
+              "displayName": "App",
+              "id": 2,
+              "key": null,
+              "env": null,
+              "stack": null,
+              "type": 1,
+              "hocDisplayNames": null,
+              "compiledWithForget": false
+            }
+          ]
+        },
+        {
+          "changeDescriptions": null,
+          "duration": 0.8,
+          "effectDuration": null,
+          "fiberActualDurations": [
+            [
+              2,
+              0.8
+            ]
+          ],
+          "fiberSelfDurations": [
+            [
+              2,
+              0.1
+            ]
+          ],
+          "passiveEffectDuration": null,
+          "priorityLevel": "Normal",
+          "timestamp": 33856,
+          "updaters": [
+            {
+              "displayName": "App",
+              "id": 2,
+              "key": null,
+              "env": null,
+              "stack": null,
+              "type": 1,
+              "hocDisplayNames": null,
+              "compiledWithForget": false
+            }
+          ]
+        },
+        {
+          "changeDescriptions": null,
+          "duration": 0.2,
+          "effectDuration": null,
+          "fiberActualDurations": [
+            [
+              2,
+              0.2
+            ]
+          ],
+          "fiberSelfDurations": [
+            [
+              2,
+              0.1
+            ]
+          ],
+          "passiveEffectDuration": null,
+          "priorityLevel": "Normal",
+          "timestamp": 34851,
+          "updaters": [
+            {
+              "displayName": "App",
+              "id": 2,
+              "key": null,
+              "env": null,
+              "stack": null,
+              "type": 1,
+              "hocDisplayNames": null,
+              "compiledWithForget": false
+            }
+          ]
+        }
+      ],
+      "displayName": "App",
+      "initialTreeBaseDurations": [
+        [
+          1,
+          3.5999999046325684
+        ],
+        [
+          2,
+          0.2999997138977051
+        ]
+      ],
+      "operations": [
+        [
+          1,
+          1,
+          0,
+          4,
+          2,
+          99,
+          4,
+          1,
+          3400
+        ],
+        [
+          1,
+          1,
+          0,
+          4,
+          2,
+          500,
+          4,
+          1,
+          3800
+        ],
+        [
+          1,
+          1,
+          0,
+          4,
+          2,
+          399,
+          4,
+          1,
+          3700
+        ],
+        [
+          1,
+          1,
+          0,
+          4,
+          2,
+          100,
+          4,
+          1,
+          3400
+        ],
+        [
+          1,
+          1,
+          0,
+          4,
+          2,
+          299,
+          4,
+          1,
+          3600,
+          11,
+          1,
+          1,
+          0,
+          21438,
+          981600,
+          125638
+        ],
+        [
+          1,
+          1,
+          0,
+          4,
+          2,
+          200,
+          4,
+          1,
+          3500,
+          11,
+          1,
+          1,
+          0,
+          21438,
+          981600,
+          419288
+        ],
+        [
+          1,
+          1,
+          0,
+          4,
+          2,
+          199,
+          4,
+          1,
+          3500
+        ],
+        [
+          1,
+          1,
+          0,
+          4,
+          2,
+          100,
+          4,
+          1,
+          3400
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          4,
+          2,
+          200,
+          4,
+          1,
+          3500,
+          11,
+          1,
+          1,
+          0,
+          21438,
+          981600,
+          125638
+        ],
+        [
+          1,
+          1,
+          0,
+          4,
+          2,
+          0,
+          4,
+          1,
+          3300
+        ],
+        [
+          1,
+          1,
+          0,
+          4,
+          2,
+          100,
+          4,
+          1,
+          3400,
+          11,
+          1,
+          1,
+          0,
+          21438,
+          981600,
+          419288
+        ],
+        [
+          1,
+          1,
+          0,
+          4,
+          2,
+          399,
+          4,
+          1,
+          3700
+        ],
+        [
+          1,
+          1,
+          0,
+          4,
+          2,
+          199,
+          4,
+          1,
+          3500
+        ],
+        [
+          1,
+          1,
+          0,
+          4,
+          2,
+          200,
+          4,
+          1,
+          3500
+        ],
+        [
+          1,
+          1,
+          0,
+          4,
+          2,
+          199,
+          4,
+          1,
+          3500
+        ],
+        [
+          1,
+          1,
+          0,
+          4,
+          2,
+          200,
+          4,
+          1,
+          3500
+        ],
+        [
+          1,
+          1,
+          0,
+          4,
+          2,
+          299,
+          4,
+          1,
+          3600
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          4,
+          2,
+          200,
+          4,
+          1,
+          3500
+        ],
+        [
+          1,
+          1,
+          0,
+          4,
+          2,
+          299,
+          4,
+          1,
+          3600
+        ],
+        [
+          1,
+          1,
+          0,
+          4,
+          2,
+          100,
+          4,
+          1,
+          3400
+        ],
+        [
+          1,
+          1,
+          0,
+          4,
+          2,
+          299,
+          4,
+          1,
+          3600
+        ],
+        [
+          1,
+          1,
+          0,
+          4,
+          2,
+          699,
+          4,
+          1,
+          4000
+        ],
+        [
+          1,
+          1,
+          0,
+          4,
+          2,
+          200,
+          4,
+          1,
+          3500
+        ],
+        [
+          1,
+          1,
+          0,
+          4,
+          2,
+          900,
+          4,
+          1,
+          4200
+        ],
+        [
+          1,
+          1,
+          0,
+          4,
+          2,
+          200,
+          4,
+          1,
+          3500
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          4,
+          2,
+          200,
+          4,
+          1,
+          3500
+        ],
+        [
+          1,
+          1,
+          0,
+          4,
+          2,
+          199,
+          4,
+          1,
+          3500
+        ],
+        [
+          1,
+          1,
+          0,
+          4,
+          2,
+          300,
+          4,
+          1,
+          3600
+        ],
+        [
+          1,
+          1,
+          0,
+          4,
+          2,
+          299,
+          4,
+          1,
+          3600
+        ],
+        [
+          1,
+          1,
+          0,
+          4,
+          2,
+          99,
+          4,
+          1,
+          3400
+        ],
+        [
+          1,
+          1,
+          0,
+          4,
+          2,
+          199,
+          4,
+          1,
+          3500
+        ],
+        [
+          1,
+          1,
+          0,
+          4,
+          2,
+          200,
+          4,
+          1,
+          3500
+        ],
+        [
+          1,
+          1,
+          0,
+          4,
+          2,
+          100,
+          4,
+          1,
+          3400
+        ],
+        [
+          1,
+          1,
+          0,
+          4,
+          2,
+          200,
+          4,
+          1,
+          3500
+        ],
+        [
+          1,
+          1,
+          0,
+          4,
+          2,
+          299,
+          4,
+          1,
+          3600,
+          11,
+          1,
+          1,
+          0,
+          21438,
+          981600,
+          125638
+        ],
+        [
+          1,
+          1,
+          0,
+          4,
+          2,
+          200,
+          4,
+          1,
+          3500,
+          11,
+          1,
+          1,
+          0,
+          21438,
+          981600,
+          419288
+        ],
+        [
+          1,
+          1,
+          0,
+          4,
+          2,
+          500,
+          4,
+          1,
+          3800
+        ],
+        [
+          1,
+          1,
+          0,
+          4,
+          2,
+          100,
+          4,
+          1,
+          3400
+        ]
+      ],
+      "rootID": 1,
+      "snapshots": [
+        [
+          1,
+          {
+            "id": 1,
+            "children": [
+              2
+            ],
+            "displayName": null,
+            "hocDisplayNames": null,
+            "key": null,
+            "type": 11,
+            "compiledWithForget": false
+          }
+        ],
+        [
+          2,
+          {
+            "id": 2,
+            "children": [],
+            "displayName": "App",
+            "hocDisplayNames": null,
+            "key": null,
+            "type": 1,
+            "compiledWithForget": false
+          }
+        ]
+      ]
+    }
+  ]
+}
